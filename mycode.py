@@ -12,6 +12,18 @@ data = {
     'Course': 'M.Tech',
     'Institute': 'IIIT Allahabad'
 }
+# data2= {
+#     'Name': 'ANUJ',
+#     'Age': 25,
+#     'Course': 'M.Tech',
+#     'Institute': 'IIIT Allahabad'
+# }
+# data3= {
+#     'Name': 'samar',
+#     'Age': 25,
+#     'Course': 'M.Tech',
+#     'Institute': 'IIIT Allahabad'
+# }
 df = pd.DataFrame([data])
 
 # Step 3: Save DataFrame to a CSV file inside the directory
