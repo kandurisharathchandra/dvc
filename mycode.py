@@ -18,6 +18,10 @@ df = pd.DataFrame([data])
 new_index = len(df)  # get next index (here 1)
 df.loc[new_index] = ['ANUJ', 25, 'M.Tech', 'IIIT Allahabad']
 
+# Step 2.1: Add another row using df.loc
+new_index = len(df)  # get next index (here 1)
+df.loc[new_index] = ['SAMAR', 25, 'M.Tech', 'IIIT Allahabad']
+
 # Step 3: Save DataFrame to CSV file inside the directory
 file_path = os.path.join(dir_name, 'student_info.csv')
 df.to_csv(file_path, index=False)
